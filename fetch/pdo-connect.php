@@ -17,7 +17,7 @@ class Connection extends Connect implements InterfaceConnect
         
         $this->dsn = "mysql:host=localhost;dbname=test";
         $this->user = "root";
-        $this->pass = "Sanjib@100";
+        $this->pass = "*****";
         
         $connect = new \PDO($this->dsn, $this->user, $this->pass);
         return $connect;
