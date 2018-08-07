@@ -4,7 +4,7 @@ class Connection
 {
     protected $dsn = "mysql:host=localhost;dbname=test";
     protected $user = "root";
-    protected $pass = "Sanjib@100";    
+    protected $pass = "";    
     
 }
 
