@@ -65,6 +65,23 @@ class FetchAll
                 print_r($rows->fetchAll(\PDO::FETCH_NUM));
                 echo '</pre>';
                 
+                /*
+                 * Array
+(
+    [0] => Array
+        (
+            [0] => 1
+            [1] => 1
+            [2] => Old man and the sea
+            [3] => 1
+        )...
+                 * 
+                 * 
+                 * 
+                 * 
+                 */
+                
+                
                 
             }
         } catch (Exception $exc) {

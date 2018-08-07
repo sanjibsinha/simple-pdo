@@ -20,5 +20,11 @@ and open the template in the editor.
         <div>
             <a href="error.php">How to show exactly where error occurred </a>
         </div>
+        <div>
+            <a href="fetch-cols.php">How to fetch a particular column and show data </a>
+        </div>
+        <div>
+            <a href="count-row.php"> How to count rows and columns in a table </a>
+        </div>
     </body>
 </html>
